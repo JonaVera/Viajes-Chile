@@ -62,17 +62,17 @@ a.navbar-brand {
     justify-content: center;
 }
 
-/* .logo1{
+/* Sección destacados cards */
+.card{
+background-color: var(--bg-color-card);
+}
+.card-title{
+    color: var(--text-color)
+}
+.card-body p{
+    color: var(--text-color)
+}
+.des{
     display: flex;
-} */
-
-/* Section destacados
-.des p {
-    font-size: 22px;
-    text-align: center;
-} */
-/* Section contacto */
-/* .cont p {
-    font-size: 22px;
-    text-align: center;
-} */
+    justify-content: space-evenly;
+}
