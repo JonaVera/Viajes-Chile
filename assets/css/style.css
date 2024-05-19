@@ -2,24 +2,77 @@
 body {
     font-family: "Raleway", sans-serif;
 }
-/* Colores body, card, icon, text y footer */
+
+/* Colores body, card, icon, text, line y footer */
 :root {
     --text-color: white;
     --bg-color-body: black;
     --bg-color-card: skyblue;
-    --color-icon: rgb(251, 248, 248); 
+    --color-icon: rgb(251, 248, 248);
+    --color-line: rgb(136, 133, 133);
 }
 
 /* Navbar */
 .navbar-brand img {
     height: 30px;
 }
+
 a.navbar-brand {
     color: var(--text-color);
     margin-right: 0%;
-    margin-left: 10%;   
+    margin-left: 10%;
 }
+
 .nav-link {
     color: var(--text-color);
     font-size: 16px;
 }
+
+/* Sección Quiénes somos */
+.secciones {
+    background-color: var(--bg-color-body);
+}
+
+.secciones h1 {
+    font-size: 22px;
+    text-align: center;
+    color: var(--text-color);
+}
+
+.line {
+    margin-left: 37px;
+    margin-right: 37px;
+    color: var(--color-line);
+}
+
+.somos p {
+    font-size: 16px;
+    text-align: left;
+    color: var(--text-color);
+}
+
+.somos i {
+    background-color: var(--bg-color-card);
+    font-size: 30px;
+    width: 360px;
+    text-align: center;
+}
+
+.row {
+    justify-content: center;
+}
+
+/* .logo1{
+    display: flex;
+} */
+
+/* Section destacados
+.des p {
+    font-size: 22px;
+    text-align: center;
+} */
+/* Section contacto */
+/* .cont p {
+    font-size: 22px;
+    text-align: center;
+} */
