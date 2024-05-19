@@ -1,0 +1,25 @@
+/* Fuente de la letra */
+body {
+    font-family: "Raleway", sans-serif;
+}
+/* Colores body, card, icon, text y footer */
+:root {
+    --text-color: white;
+    --bg-color-body: black;
+    --bg-color-card: skyblue;
+    --color-icon: rgb(251, 248, 248); 
+}
+
+/* Navbar */
+.navbar-brand img {
+    height: 30px;
+}
+a.navbar-brand {
+    color: var(--text-color);
+    margin-right: 0%;
+    margin-left: 10%;   
+}
+.nav-link {
+    color: var(--text-color);
+    font-size: 16px;
+}
