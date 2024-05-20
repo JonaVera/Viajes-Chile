@@ -94,3 +94,18 @@ a.navbar-brand {
 }
 
 /* Footer */
+.ico {
+    background-color: var(--bg-color-card);
+    color: var(--text-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ico h3{
+    font-size: 25px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.ico-img{
+    font-size: 25px;
+}
